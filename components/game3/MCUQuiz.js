@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ImageBackground, ActivityIndicator, Dimensions } from 'react-native';
 import gameStyles from './styles/gameStyles';
-import colors from './styles/colors';
+import colors from '../../global.css';
 
 const allQuestions = [
   {
@@ -163,16 +163,16 @@ const allQuestions = [
 ];
 
 const marvelImages = [
-  require('../../marvel_images/01mcu.jpg'),
-  require('../../marvel_images/02mcu.jpg'),
-  require('../../marvel_images/3mcu.jpg'),
-  require('../../marvel_images/4mcu.jpg'),
-  require('../../marvel_images/5mcu.jpg'),
-  require('../../marvel_images/6mcu.jpg'),
-  require('../../marvel_images/7mcu.jpg'),
-  require('../../marvel_images/8mcu.jpg'),
-  require('../../marvel_images/9mcu.jpg'),
-  require('../../marvel_images/10mcu.jpg'),
+  require('../game3/marvel_images/01mcu.jpg'),
+  require('../game3/marvel_images/02mcu.jpg'),
+  require('../game3/marvel_images/3mcu.jpg'),
+  require('../game3/marvel_images/4mcu.jpg'),
+  require('../game3/marvel_images/5mcu.jpg'),
+  require('../game3/marvel_images/6mcu.jpg'),
+  require('../game3/marvel_images/7mcu.jpg'),
+  require('../game3/marvel_images/8mcu.jpg'),
+  require('../game3/marvel_images/9mcu.jpg'),
+  require('../game3/marvel_images/10mcu.jpg'),
 ];
 
 const SCREEN_WIDTH = Dimensions.get('window').width;

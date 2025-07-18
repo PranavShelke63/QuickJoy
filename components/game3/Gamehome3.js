@@ -6,7 +6,7 @@ import gameStyles from './styles/gameStyles';
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 
-const marvelBg = require('../../marvel_images/6mcu.jpg');
+const marvelBg = require('../game3/marvel_images/6mcu.jpg');
 
 // Reusable shadow overlay component
 export const ShadowOverlay = ({ visible }) => (
